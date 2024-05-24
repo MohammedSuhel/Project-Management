@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Sheets</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+        h2 {
+            font-size: 2em;
+            margin: 1em 0;
+            color: #0066cc;
+        }
+        p {
+            margin: 0.5em 0;
+            font-size: 1.1em;
+        }
+        a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+            transition: color 0.1s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #0044450;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            margin: 1em;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        .button-link {
+            display: inline-block;
+            padding: 0.75em 1.5em;
+            background-color: #0066cc;
+            color: white;
+            border-radius: 4px;
+            margin: 0.5em 0;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-size: 1.1em;
+        }
+        .button-link:hover {
+            background-color: #004080;
+            transform: scale(1.05);
+        }
+        .button-link:active {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Excel Sheets</h1>  
+        <h2>View Links</h2>
+        <p><a href="https://github.com/MohammedSuhel/Project-Management/blob/main/Asection.xlsx" target="_blank" class="button-link">View A Section Excel Sheet</a></p>
+        <p><a href="https://github.com/MohammedSuhel/Project-Management/blob/main/Bsection.xlsx" target="_blank" class="button-link">View B Section Excel Sheet</a></p>
+    </div>
+</body>
+</html>
